@@ -214,7 +214,7 @@ const LoanApp = React.forwardRef((props, ref) => {
                 <input className="border-2 rounded border-primary text-center py-2 mb-4 w-64" type="email" name="email" placeholder="Enter your email address" onChange={handleChange} value={email} required />
                 {multiplePrograms && !moreThanSixPrograms && 
                     <div className="w-full lg:w-64 px-8 lg:px-0">
-                        <p className="text-center text-sm">Select a {props.schoolName} program</p>                        
+                        <p className="text-center text-sm">Select your {props.schoolName} program</p>                        
                         {programLoanInfo.map((program, i) => {
                             return <p key={program.name} className={activeIndex === i ? activeClass : inactiveClass} onClick={() => toggleIsActive(i)}>{program.name}</p>
                         })}
