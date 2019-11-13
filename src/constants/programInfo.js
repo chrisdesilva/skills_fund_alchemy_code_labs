@@ -1,6 +1,6 @@
 import logo from "../images/logo_alchemy.webp" // add school logo to images folder and import here
 
-export const applicationsLive = true // set to false if not currently accepting applications
+export const applicationsLive = false // set to false if not currently accepting applications
 export const disabledLoanAppFormID = '69140c47-bb03-4a1b-b674-cc136fdea23d' // Hubspot ID for all disabled apply now lead captures
 export const nextCohortStartDate = 'October 29, 2019'
 
@@ -208,8 +208,8 @@ export const selectAProgram = "select_a_alchemy_program" // update school name t
 
 // ***** BEGIN LOAN APP AND CALC INFO *****
 
-export const defaultLoanAmount = 10000
-export const placeholder = '$10,000'
+export const defaultLoanAmount = 5750
+export const placeholder = '$5,750'
 export const interestRates = {
     ir36: 8.99,
     ir60: 10.99

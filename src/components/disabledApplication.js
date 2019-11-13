@@ -86,8 +86,8 @@ const DisabledApplication = React.forwardRef((props, ref) => {
             <h2>Loan Application</h2>
             <div className="rounded shadow-2xl p-8 px-8 mx-16 mb-8 bg-white">
                 {/* update with school name, remove cost of living if school does not offer it */}
-                <h3 className="text-center font-normal">Looking to apply for Skills Fund financing for {props.schoolName}'s upcoming cohort?</h3>
-                <p className="text-center font-normal">The application button will become available once we're within 90 days of that cohort start date. Please submit your email address below to be notified once the application button becomes available.</p>
+                <h3 className="text-center font-normal">Looking to apply for Skills Fund financing for {props.schoolName}?</h3>
+                <p className="text-center font-normal">Please submit your email address below to be notified once the application button becomes available.</p>
                 <div className="flex justify-center">
                     <img className="w-auto" src={marching} alt="People marching and carrying flags" loading="lazy"/>
                 </div>
