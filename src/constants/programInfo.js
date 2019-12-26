@@ -219,7 +219,7 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 export const programLoanInfo = [ // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
     {
         name: "Bootcamp Part One",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKAL217",
+        url: "https://my.skills.fund/application?lenderCode=SKAL217",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 5750,
             loanTerm36: true,
@@ -254,7 +254,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Bootcamp Part Two",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKAL317",
+        url: "https://my.skills.fund/application?lenderCode=SKAL317",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 6750,
             loanTerm36: true,
@@ -289,7 +289,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Bootcamp Part One & Two",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKAL2317",
+        url: "https://my.skills.fund/application?lenderCode=SKAL2317",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 12500,
             loanTerm36: true,
@@ -324,7 +324,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Bootcamp Part Two + Career Track",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKAL3417",
+        url: "https://my.skills.fund/application?lenderCode=SKAL3417",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 24750,
             loanTerm36: true,
@@ -359,7 +359,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Bootcamp Part One & Two + Career Track",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKAL23417",
+        url: "https://my.skills.fund/application?lenderCode=SKAL23417",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 30500,
             loanTerm36: true,
@@ -394,7 +394,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
     },
     {
         name: "Career Track",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKAL417",
+        url: "https://my.skills.fund/application?lenderCode=SKAL417",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 18000,
             loanTerm36: true,
