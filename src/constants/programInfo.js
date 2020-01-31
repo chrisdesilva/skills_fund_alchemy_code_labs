@@ -1,14 +1,8 @@
 import logo from '../images/logo_alchemy.webp'; // add school logo to images folder and import here
 
-<<<<<<< HEAD
 export const applicationsLive = true; // set to false if not currently accepting applications
 export const disabledLoanAppFormID = '69140c47-bb03-4a1b-b674-cc136fdea23d'; // Hubspot ID for all disabled apply now lead captures
 export const nextCohortStartDate = 'October 29, 2019';
-=======
-export const applicationsLive = true // set to false if not currently accepting applications
-export const disabledLoanAppFormID = '69140c47-bb03-4a1b-b674-cc136fdea23d' // Hubspot ID for all disabled apply now lead captures
-export const nextCohortStartDate = 'October 29, 2019'
->>>>>>> e43e4300d90f354b82d89dfb1ac84b7cb66d2e5b
 
 // ***** BEGIN TERMS AND FAQ INFO *****
 
