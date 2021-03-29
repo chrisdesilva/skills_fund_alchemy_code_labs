@@ -2,9 +2,15 @@ exports.createPages = ({ graphql, actions }) => {
     const { createPage, createRedirect } = actions
 
     createRedirect({
-        fromPath: "https://codefellowspdx.skills.fund/*",
-        toPath: "https://alchemycodelab.skills.fund/:splat",
+        fromPath: "/go",
+        toPath:
+          "/?utm_source=school&utm_medium=printedskfbrochure&utm_campaign=studentbrochure",
+      })
+    createRedirect({
+        fromPath: "/*",
+        toPath: "https://partner.ascentfunding.com/alchemycodelab/",
         isPermanent: true,
         force: true,
     })
 }
+
